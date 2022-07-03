@@ -1,0 +1,2 @@
+getgenv().FLYMODE = "SuperHero"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/creepyV4/creepyaimgui/main/admin%20fly"))()
