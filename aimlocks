@@ -1,0 +1,137 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Aimlock = Instance.new("TextButton")
+local Esp = Instance.new("TextButton")
+local Silentaim = Instance.new("TextButton")
+local Triggerbot = Instance.new("TextButton")
+local LabelLOl = Instance.new("TextLabel")
+local Maintittle = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Main.Position = UDim2.new(0.460674167, 0, 0.222222224, 0)
+Main.Size = UDim2.new(0, 501, 0, 382)
+Main.Active = true
+Main.Visible = true
+Main.Draggable = true
+
+Aimlock.Name = "disable lock"
+Aimlock.Parent = Main
+Aimlock.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Aimlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimlock.BorderSizePixel = 10
+Aimlock.Position = UDim2.new(0.029940119, 0, 0.196335092, 0)
+Aimlock.Size = UDim2.new(0, 200, 0, 49)
+Aimlock.Font = Enum.Font.SourceSans
+Aimlock.Text = "silent aim off"
+Aimlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aimlock.TextScaled = true
+Aimlock.TextSize = 14.000
+Aimlock.TextWrapped = true
+Aimlock.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/creepyV4/dislock/main/.gitignore"))() -- power
+end)
+
+Esp.Name = "turn lock off"
+Esp.Parent = Main
+Esp.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Esp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Esp.BorderSizePixel = 10
+Esp.Position = UDim2.new(0.029940119, 0, 0.455497384, 0)
+Esp.Size = UDim2.new(0, 200, 0, 49)
+Esp.Font = Enum.Font.SourceSans
+Esp.Text = "silent aim on"
+Esp.TextColor3 = Color3.fromRGB(255, 255, 255)
+Esp.TextScaled = true
+Esp.TextSize = 14.000
+Esp.TextWrapped = true
+Esp.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/creepyV4/disa/main/.gitignore"))()
+end)
+
+Silentaim.Name = "dot "
+Silentaim.Parent = Main
+Silentaim.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Silentaim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Silentaim.BorderSizePixel = 10
+Silentaim.Position = UDim2.new(0.53692615, 0, 0.196335077, 0)
+Silentaim.Size = UDim2.new(0, 200, 0, 50)
+Silentaim.Font = Enum.Font.SourceSans
+Silentaim.Text = "dot lock q"
+Silentaim.TextColor3 = Color3.fromRGB(255, 255, 255)
+Silentaim.TextScaled = true
+Silentaim.TextSize = 14.000
+Silentaim.TextWrapped = true
+Silentaim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/creepyV4/creepyaimgui/main/creepy%20DOT"))()
+	local NotificationBindable = Instance.new("BindableFunction")
+end)
+
+Triggerbot.Name = "hoodcustom"
+Triggerbot.Parent = Main
+Triggerbot.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Triggerbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Triggerbot.BorderSizePixel = 10
+Triggerbot.Position = UDim2.new(0.53692615, 0, 0.455497384, 0)
+Triggerbot.Size = UDim2.new(0, 200, 0, 50)
+Triggerbot.Font = Enum.Font.SourceSans
+Triggerbot.Text = "hoodcustom q to lock "
+Triggerbot.TextColor3 = Color3.fromRGB(255, 255, 255)
+Triggerbot.TextScaled = true
+Triggerbot.TextSize = 14.000
+Triggerbot.TextWrapped = true
+Triggerbot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/creepyV4/creepyaimgui/main/hoodcustom"))() 
+end)
+
+LabelLOl.Name = "Label LOl"
+LabelLOl.Parent = Main
+LabelLOl.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+LabelLOl.BorderSizePixel = 0
+LabelLOl.Position = UDim2.new(0.029940119, 0, 0.664921463, 0)
+LabelLOl.Size = UDim2.new(0, 470, 0, 112)
+LabelLOl.Font = Enum.Font.SourceSans
+LabelLOl.Text = "locks ," -- shit
+LabelLOl.TextColor3 = Color3.fromRGB(255, 255, 255)
+LabelLOl.TextScaled = true
+LabelLOl.TextSize = 14.000
+LabelLOl.TextWrapped = true
+
+Maintittle.Name = "Main tittle"
+Maintittle.Parent = Main
+Maintittle.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+Maintittle.Size = UDim2.new(0, 501, 0, 50)
+Maintittle.Font = Enum.Font.SourceSans
+Maintittle.Text = "fertio"
+Maintittle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Maintittle.TextScaled = true
+Maintittle.TextSize = 14.000
+Maintittle.TextWrapped = true
+
+
+local function TYOY_fake_script() -- shits
+	local script = Instance.new('LocalScript', Main)
+
+	local Plr = game.Players.LocalPlayer
+
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "," then
+			script.Parent.Visible = true
+		end
+	end)
+
+	local Plr = game.Players.LocalPlayer
+
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "v" then
+			script.Parent.Visible = false
+		end
+	end)
+end
+coroutine.wrap(TYOY_fake_script)() -- ye
+
+
+
