@@ -32,7 +32,7 @@ Aimlock.TextScaled = true
 Aimlock.TextSize = 14.000
 Aimlock.TextWrapped = true
 Aimlock.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/creepyV4/dislock/main/.gitignore"))() -- power
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/babysharkleader280/dislock/main/.gitignore"))() -- power
 end)
 
 Esp.Name = "turn lock off"
@@ -49,7 +49,7 @@ Esp.TextScaled = true
 Esp.TextSize = 14.000
 Esp.TextWrapped = true
 Esp.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/creepyV4/disa/main/.gitignore"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/babysharkleader280/disa/main/.gitignore"))()
 end)
 
 Silentaim.Name = "dot "
@@ -66,7 +66,7 @@ Silentaim.TextScaled = true
 Silentaim.TextSize = 14.000
 Silentaim.TextWrapped = true
 Silentaim.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/creepyV4/creepyaimgui/main/creepy%20DOT"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/babysharkleader280/creepyaimgui/main/creepy%20DOT"))()
 	local NotificationBindable = Instance.new("BindableFunction")
 end)
 
@@ -84,7 +84,7 @@ Triggerbot.TextScaled = true
 Triggerbot.TextSize = 14.000
 Triggerbot.TextWrapped = true
 Triggerbot.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/creepyV4/creepyaimgui/main/hoodcustom"))() -- Not even working
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/babysharkleader280/creepyaimgui/main/hoodcustom"))() 
 end)
 
 LabelLOl.Name = "Label LOl"
